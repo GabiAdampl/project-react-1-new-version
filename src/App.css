@@ -1,38 +1,238 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+	width: 960px;
+	margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* nav */
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #4e4e4e;
+	color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+	list-style-type: none;
+	margin: 0 13px;
+}
+li a {
+	color: white;
+	text-decoration: none;
+}
+.nav-brand-name {
+	height: 29px;
+	width: 88px;
+	position: absolute;
+	top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kontakt a {
+	cursor: not-allowed;
+}
+
+/* header */
+header {
+	height: calc(100vh - 50px);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.header-img {
+	height: calc(100vh - 50px);
+	background-image: url('Tło\ sekcji (3).png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.header-text {
+	height: 215px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.header-text h1 {
+	margin-bottom: 10px;
+}
+.header-button {
+	background-color: rgba(255, 255, 255, 0);
+	width: 164px;
+	height: 41px;
+	border: 3px solid white;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	transition: color, background-color 1s ease;
+	text-decoration: none;
+}
+.header-button:hover {
+	color: black;
+	background-color: white;
+}
+
+/* main */
+.our-specjalists {
+	margin-top: 50px;
+}
+.bold-text {
+	font-weight: bold;
+}
+.specjalist {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 50px 0px;
+}
+.first-specjalist-img,
+.second-specjalist-img {
+	background-size: cover;
+	background-position: center;
+	width: 33%;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.first-specjalist-img {
+	background-image: url('https://cdn.pixabay.com/photo/2015/03/03/18/58/woman-657753_960_720.jpg');
+}
+
+.second-specjalist-img {
+	background-image: url('https://cdn.pixabay.com/photo/2017/02/16/12/08/business-woman-2071334_960_720.jpg');
+}
+
+.bold-text {
+	margin-bottom: 20px;
+}
+.specjalist:nth-of-type(even) {
+	flex-direction: row-reverse;
+}
+
+.specjalist-reverse-text {
+	text-align: right;
+}
+
+.blue-bcg {
+	background-color: #405d78;
+	width: 100%;
+	padding: 50px 0px;
+}
+.offer-h1 {
+	margin-top: 50px;
+	font-size: 36px;
+}
+.offer-h2 {
+	color: white;
+	font-size: 36px;
+}
+.offer-grid-container {
+	width: 720px;
+	height: 450px;
+	margin: 50px auto;
+	display: grid;
+	gap: 64px;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: 50% 50%;
+	align-items: center;
+	justify-items: center;
+	justify-content: space-around;
+	font-size: 24px;
+}
+.grid-item {
+	width: 198px;
+	height: 198px;
+	background-color: #f1f1f1;
+	box-shadow: 2px 2px 5px;
+	position: relative;
+	transition: all 0.5s ease;
+}
+.grid-item:hover {
+	transform: scale(1.05);
+}
+.circle {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #e07a64;
+	top: -11px;
+	left: -11px;
+}
+.grid-item p {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+/* footer */
+.grey-bcg {
+	height: 71px;
+	width: 100%;
+	background-color: #4e4e4e;
+}
+
+.footer {
+	color: white;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-text {
+	position: absolute;
+	height: 21px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ffffff;
+}
+.footer-icons {
+	display: flex;
+	gap: 18px;
+	padding-left: 900px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.fa-facebook {
+	background: #4e4e4e;
+	color: white;
+}
+.fa-instagram {
+	background: #4e4e4e;
+	color: white;
 }

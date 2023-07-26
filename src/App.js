@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import components from './components';
-import Nav from './Nav';
-import Header from './Header';
-import Employees from './Employees';
-import Services from './Services';
-import Footer from './Footer';
+import Nav from './components/Nav';
+import Header from './components/Header';
+import Employees from './components/Employees';
+import Services from './components/Services';
+import Footer from './components/Footer';
 
 const App = () => {
 	return (
