@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Header.css'
 const Header = () => {
 	return (
 		<header>
-			{
+			
 				<div class='header-img'>
 					<div class='header-bg'></div>
 					<div class='header-text container'>
@@ -14,7 +14,7 @@ const Header = () => {
 						</a>
 					</div>
 				</div>
-			}
+			
 		</header>
 	);
 };

@@ -1,0 +1,41 @@
+.grey-bcg {
+	height: 71px;
+	width: 100%;
+	background-color: #4e4e4e;
+}
+
+.footer {
+	color: white;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-text {
+	position: absolute;
+	height: 21px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ffffff;
+}
+.footer-icons {
+	display: flex;
+	gap: 18px;
+	padding-left: 900px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.fa-facebook {
+	background: #4e4e4e;
+	color: white;
+}
+.fa-instagram {
+	background: #4e4e4e;
+	color: white;
+}
