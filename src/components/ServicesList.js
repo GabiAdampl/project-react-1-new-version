@@ -1,4 +1,3 @@
-import React from 'react';
 import ServicesItem from './ServicesItem';
 
 const ServicesList = ({ services }) => {
