@@ -1,13 +1,12 @@
-import React from 'react';
 import './Employees.css';
 const Employees = () => {
 	return (
 		<section className='our-specjalists container' id='onas'>
-			<h2 class='offer-h1 container'>Nasi specjaliści</h2>
-			<section class='specjalist'>
-				<div class='first-specjalist-img'></div>
+			<h2 className='offer-h1 container'>Nasi specjaliści</h2>
+			<section className='specjalist'>
+				<div className='first-specjalist-img'></div>
 				<div>
-					<p class='bold-text'>Janina Kowalska</p>
+					<p className='bold-text'>Janina Kowalska</p>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, tempore illo exercitationem unde voluptate,
 						repellendus quisquam odio ut soluta alias ducimus autem fugiat, reiciendis omnis provident earum minima
@@ -15,11 +14,11 @@ const Employees = () => {
 					</p>
 				</div>
 			</section>
-			<section class='specjalist'>
-				<div class='second-specjalist-img'></div>
+			<section className='specjalist'>
+				<div className='second-specjalist-img'></div>
 				<div>
-					<p class='bold-text specjalist-reverse-text'>Krystyna Pospolita</p>
-					<p class='specjalist-reverse-text'>
+					<p className='bold-text specjalist-reverse-text'>Krystyna Pospolita</p>
+					<p className='specjalist-reverse-text'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, tempore illo exercitationem unde voluptate,
 						repellendus quisquam odio ut soluta alias ducimus autem fugiat, reiciendis omnis provident earum minima
 						corporis molestiae.

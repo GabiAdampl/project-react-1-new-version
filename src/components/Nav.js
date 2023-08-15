@@ -1,19 +1,21 @@
-import React from 'react';
 import './Nav.css';
 const Nav = () => {
 	return (
 		<nav>
-			<section class='nav container'>
-				<div class='nav-brand-name'>moja firma</div>
+			<section className='nav container'>
+				<div className='nav-brand-name'>moja firma</div>
 				<ul>
-					<li class='about us'>
+					<li className='about us'>
 						<a href='#onas'> O nas</a>
 					</li>
-					<li class='offers'>
+					<li className='offers'>
 						<a href='#oferta'> Oferta</a>
 					</li>
-					<li class='contact'>
-						<a href='#kontakt'> Kontakt </a>
+					<li>
+						<a className='contact' href='#kontakt'>
+							{' '}
+							Kontakt{' '}
+						</a>
 					</li>
 				</ul>
 			</section>

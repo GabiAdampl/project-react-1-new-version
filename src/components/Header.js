@@ -1,14 +1,13 @@
-import React from 'react';
 import './Header.css';
 const Header = () => {
 	return (
 		<header>
-			<div class='header-img'>
-				<div class='header-bg'></div>
-				<div class='header-text container'>
-					<h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
+			<div className='header-img'>
+				<div className='header-bg'></div>
+				<div className='header-text container'>
+					<h1 className='h1'> Nasza firma oferuje najwyższej jakości produkty.</h1>
 					<p>Nie wierz nam na słowo - sprawdź</p>
-					<a href='#oferta' class='header-button'>
+					<a href='#oferta' className='header-button'>
 						oferta
 					</a>
 				</div>

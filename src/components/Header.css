@@ -6,7 +6,7 @@ header {
 }
 .header-img {
 	height: calc(100vh - 50px);
-	background-image: url('Tło\ sekcji (3).png');
+	background-image: url('./Images/Tło\ sekcji\ \(3\).png');
 	background-position: center;
 	background-size: cover;
 	position: relative;
