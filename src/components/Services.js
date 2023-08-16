@@ -6,6 +6,7 @@ const Services = () => {
 			<h2 className='offer-h2 container' id='oferta'>
 				Czym zajmuje się nasza firma?
 			</h2>
+
 			<ServicesList services={servicesData} />
 		</section>
 	);

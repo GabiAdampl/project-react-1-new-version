@@ -7,7 +7,7 @@ const Employees = () => {
 				<div className='first-specjalist-img'></div>
 				<div>
 					<p className='bold-text'>Janina Kowalska</p>
-					<p>
+					<p className='opis'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, tempore illo exercitationem unde voluptate,
 						repellendus quisquam odio ut soluta alias ducimus autem fugiat, reiciendis omnis provident earum minima
 						corporis molestiae.
