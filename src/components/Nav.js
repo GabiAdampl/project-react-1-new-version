@@ -1,20 +1,19 @@
 import './Nav.css';
 const Nav = () => {
 	return (
-		<nav>
-			<section className='nav container'>
+		<nav className='nav'>
+			<section className='container'>
 				<div className='nav-brand-name'>moja firma</div>
-				<ul>
-					<li className='about us'>
+				<ul className='nav-list'>
+					<li className='nav-list-item'>
 						<a href='#onas'> O nas</a>
 					</li>
-					<li className='offers'>
+					<li className='nav-list-item'>
 						<a href='#oferta'> Oferta</a>
 					</li>
-					<li>
+					<li className='nav-list-item'>
 						<a className='contact' href='#kontakt'>
-							{' '}
-							Kontakt{' '}
+							Kontakt
 						</a>
 					</li>
 				</ul>
